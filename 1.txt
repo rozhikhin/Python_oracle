@@ -1,0 +1,6 @@
+select name from users
+select PROFESSION from users where NAME = 'vasya'; select PROFESSION from users where NAME = 'vasya3';
+select DOC_NUM from users
+select PROFESSION from users where NAME = 'vasya2'; select PROFESSION from users where NAME = 'vasya3'
+UPDATE users SET name = 'Fedor2',PROFESSION = 'worker33',doc_num='505050' WHERE id=3; UPDATE users SET name = 'vasya' WHERE vasya3
+DELETE FROM users WHERE id = 2
